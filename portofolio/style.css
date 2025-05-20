@@ -1,0 +1,83 @@
+body {
+      
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #080101;    
+    background: url();
+
+}
+
+header {
+    background: url(nnnnn.jpg);
+    color: #130802;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #020000;
+    text-decoration: none;
+}
+
+.section {
+    background: url(nnnnn.jpg);
+    padding: 60px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(231, 11, 11, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #a16c6c;
+    color: #160404;
+}
+
+h1 {
+    text-align: center;              /* Mengatur teks judul agar berada di tengah */
+    color: #1a0303;                     /* Warna teks */
+}
+
+.map-container {
+    display: flex;                   /* Menggunakan flexbox untuk tata letak */
+    justify-content: center;         /* Menempatkan peta di tengah */
+    margin-top: 20px;               /* Menambahkan jarak atas */
+    border-radius: 8px;             /* Sudut melengkung */
+    overflow: hidden;                /* Menghapus overflow */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+}
+
+iframe {
+    border: none;                   /* Menghapus border iframe */
+    border-radius: 8px;            /* Sudut melengkung untuk iframe */
+    width: 100%;                   /* Mengatur lebar iframe 100% dari kontainer */
+    height: 450px;                 /* Tinggi iframe */
+}
+
+@media (max-width: 600px) {
+    iframe {
+        height: 300px;             /* Mengubah tinggi iframe pada layar kecil */
+    }
+}
